@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">ReactNativeMobileApp</string>
+    <string name="my_profile">My Profile</string>
+    <string name="master_yoda">Master Yoda</string>
+    <string name="my_name">My name</string>
+    <string name="about_me">About me</string>
+    <string name="hint">hint</string>
+    <string name="my_github_profile">My GitHub Profile</string>
+    <string name="temperature">I live in City where current temperature is</string>
+</resources>

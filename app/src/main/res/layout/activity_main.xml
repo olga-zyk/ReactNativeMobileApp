@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity" tools:layout_editor_absoluteY="81dp" android:id="@+id/firstPage">
+
+    <Button
+            android:text="@string/my_profile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/myProfileButton" app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintHorizontal_bias="0.5" app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="30dp" app:layout_constraintTop_toBottomOf="@+id/myAvatar"/>
+    <ImageView
+            android:layout_width="177dp"
+            android:layout_height="195dp" tools:srcCompat="@drawable/master_yoda"
+            android:id="@+id/myAvatar"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" android:layout_marginTop="24dp"
+            app:layout_constraintTop_toBottomOf="@+id/myName" android:contentDescription="@avatar"/>
+    <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:text="@string/master_yoda"
+            android:ems="10"
+            android:id="@+id/myName"
+            tools:ignore="LabelFor"
+            android:textStyle="bold" android:textAlignment="center" app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintHorizontal_bias="0.503" app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" android:layout_marginTop="72dp"
+            android:importantForAutofill="no" tools:targetApi="o" android:hint="@string/my_name"/>
+
+</android.support.constraint.ConstraintLayout>
