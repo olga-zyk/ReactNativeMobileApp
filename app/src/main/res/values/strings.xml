@@ -6,5 +6,9 @@
     <string name="about_me">About me</string>
     <string name="hint">hint</string>
     <string name="my_github_profile">My GitHub Profile</string>
-    <string name="temperature">I live in City where current temperature is</string>
+    <string name="temperature">I live in City where current temperature is 2 °C</string>
+    <string name="avatar">avatar</string>
+    <string name="myAvatar2">avatar</string>
+    <string name="avatar2">avatar2</string>
+    <string name="github_button">github_button</string>
 </resources>
