@@ -20,7 +20,8 @@
             android:id="@+id/myAvatar"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent" android:layout_marginTop="24dp"
-            app:layout_constraintTop_toBottomOf="@+id/myName" android:contentDescription="@avatar"/>
+            app:layout_constraintTop_toBottomOf="@+id/myName" android:contentDescription="@string/avatar"
+            app:srcCompat="@drawable/master_yoda"/>
     <EditText
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
